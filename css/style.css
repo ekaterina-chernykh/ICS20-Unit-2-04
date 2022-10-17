@@ -25,9 +25,20 @@ body {
   background-color: #345a98;
 }
 
-#right-image {
-  position: absolute;
-  right: 0%;
+img {
+  display: block;
+  width: 50%;
+  height: 40%;
+}
+
+h3 {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h5 {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 p {

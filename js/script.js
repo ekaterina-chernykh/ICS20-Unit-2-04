@@ -4,8 +4,8 @@
 
 "use strict"
 /**
-  * This function calculates area of triangle.
-  */
+ * This function calculates area of triangle.
+ */
 function calculate() {
   // input
   const height = parseInt(document.getElementById("height-of-triangle").value)

@@ -48,15 +48,15 @@
         </table>
         <form action="#">
           <h5>Height</h5>
-          <div class="mdl-textfield mdl-js-textfeild">
+          <div class="mdl-textfield mdl-js-textfield">
             <input
-              class="mdl-textfeild__input"
+              class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
               id="height-of-triangle"
             />
             <label class="mdl-textfield__label" for="height-of-triangle"
-              >Height...</label
+              >Height ...</label
             >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
@@ -78,11 +78,15 @@
         </form>
         <!-- Colored raised button -->
         <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
-          onclick="myButtonClicked()"
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="calculate()"
         >
           CALCULATE
         </button>
+        <br />
+        <div id="answers">
+          <div id="area"></div>
+        </div>  
       </main>
     </div>
   </body>

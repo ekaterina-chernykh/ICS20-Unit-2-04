@@ -34,11 +34,7 @@
         <table>
           <tr>
             <th>
-              <img
-                src="./images/triangle-img.png"
-                alt="triangle-img.png"
-                id="img"
-              />
+              <img src="./images/triangle-img.png" alt="triangle-img.png" id=img/>
             </th>
             <th>
               <h3>Formula</h3>
@@ -46,11 +42,35 @@
             </th>
           </tr>
         </table>
+        <form action="#">
+          <p>Height</p>
+          <div class="mdl-textfield mdl-js-textfeild">
+            <input
+              class="mdl-textfeild__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="height-of-triangle"
+            />
+            <label class="mdl-textfield__label" for="height-of-triangle">Height...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
+        <form action="#">
+          <p>Base</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="base-of-triangle"
+            />
+            <label class="mdl-textfield__label" for="base-of-triangle">Base ...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
         <!-- Colored raised button -->
         <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
-          onclick="myButtonClicked()"
-        >
+          class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="myButtonClicked()">
           CALCULATE
         </button>
       </main>
